@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .product-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.product-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.product-info {
+    flex-grow: 1;
+}
+
+.product-info p {
+    margin: 0;
+}
+
+.product-actions {
+    display: flex;
+    align-items: center;
+}
+
+.product-actions button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.product-price {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.close-button,
+.favorite-button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+    </style>
+</head>
+
+<body>
+    
+    <div style="padding: 10px;">
+        <ul style="display: flex;flex-direction: column;" >
+            <li style="display: flex;flex-direction: row;" class="product-card ">
+                <div>
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQgLtMgRxmnpc7YE5UEUEGK3Sr88XhDyjMrbAAuX7GzDLEIQ1AslMlTf7uhkQaCXVfTQjHr59bIsPovnAVeKJzoW1bRkaO7sNJUDV3fovz-GTRM7lsZJm5wXw&usqp=CAE"
+                    alt="Product Image" class="product-image">
+                </div>
+             
+                <div class="product-info">
+                    <p>Item name no. 1 here</p>
+                    <p>Size: ***</p>
+                    <p>Color: ***</p>
+                </div>
+        
+                <div class="product-actions" style='display:flex;width: 10%;'>
+                    <button>-</button>
+                    <!-- <input type="text" value="1"> -->
+                    <input type='text' style="width: inherit;min-width: 20px;"  value="1">
+                    <button>+</button>
+                </div>
+        
+                <div>
+                    <p class="product-price">INR 2000</p>
+                </div>
+            </li>
+            <li style="display: flex;flex-direction: row;" class="product-card ">
+                <div>
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQgLtMgRxmnpc7YE5UEUEGK3Sr88XhDyjMrbAAuX7GzDLEIQ1AslMlTf7uhkQaCXVfTQjHr59bIsPovnAVeKJzoW1bRkaO7sNJUDV3fovz-GTRM7lsZJm5wXw&usqp=CAE"
+                    alt="Product Image" class="product-image">
+                </div>
+             
+                <div class="product-info">
+                    <p>Item name no. 1 here</p>
+                    <p>Size: ***</p>
+                    <p>Color: ***</p>
+                </div>
+        
+                <div class="product-actions" style='display:flex;width: 10%;'>
+                    <button>-</button>
+                    <!-- <input type="text" value="1"> -->
+                    <input type='text' style="width: inherit;min-width: 20px;"  value="1">
+                    <button>+</button>
+                </div>
+        
+                <div>
+                    <p class="product-price">INR 2000</p>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+      
+        
+           
+   
+</body>
+
+</html>
